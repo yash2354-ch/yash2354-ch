@@ -1,0 +1,110 @@
+* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+.hero .intro {
+    max-width: 50%;
+}
+
+.hero h2 {
+    font-size: 2rem;
+}
+
+.hero .buttons {
+    margin-top: 1rem;
+}
+
+.hero .btn {
+    background: #6200ea;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.hero .btn.secondary {
+    background: #999;
+}
+
+.hero img {
+    max-width: 400px;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#about {
+    background: #f9f9f9;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-container img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
