@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Yash Kumar
 - 👀 I’m interested in full stack web development
-- 🌱 I’m currently learning Html Css
+- 🌱 I’m currently learning Html Css.
   This is my first portfolio
   You see my portfolio please create separate a new folder in your desktop
    add all file in same folder.
